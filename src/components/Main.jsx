@@ -27,10 +27,10 @@ const Main = () => {
                  wrapper="div"
                  cursor={true}
                  repeat={Infinity}
-                 style={{ fontSize: '2em', padding:'5px' }}
+                 style={{ fontSize: '1em', padding:'5px' }}
                 />
            </h2>
-           <div className='flex justify-between pt-6 max-w-[200] w-full'>
+           <div className='flex justify-between pt-6 max-w-[200] w-3/12'>
             <FaTwitter  className='cursor-pointer' size={20}/>
             <FaFacebookF className='cursor-pointer' size={20}/>
             <FaInstagram className='cursor-pointer' size={20}/>
