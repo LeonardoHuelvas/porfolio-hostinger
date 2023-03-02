@@ -15,7 +15,7 @@ const Contact = () =>{
                         name="name"/>
                     </div>
                     <div className="flex flex-col">
-                        <label className="uppercase text-sm py-2 ">Phone Number</label>
+                        <label className="uppercase text-sm py-2 ">Phone</label>
                         <input 
                         className="border-2 rounded-lg p-3 flex border-gray-300" 
                         type="text" 
@@ -38,7 +38,7 @@ const Contact = () =>{
                         <label className="uppercase text-sm py-2">Message</label>
                         <textarea className="border-2 rounded-lg p-3 border-gray-300" rows='10' name="message"></textarea>
                     </div>
-                    <button className="bg-[#1b2781] text-gray-100 mt-4 w-full p-4 hover:bg-blue-150">
+                    <button className="bg-[#1b2781] text-gray-100 mt-4 w-full p-4 rounded-lg animate-none">
                         Send Message
                     </button>
                 </form>
