@@ -14,8 +14,8 @@ const Projects = () => {
         <h1 className='text-4xl font-bold text-center text-[#001b5e]'>
           Projects
         </h1>
-      <p className='text-center py-8'>
-      Proyectos realizados en ReactJs + Vite - SPA - enfocados en eccomerce de compra de productos y venta.  También desarrollo Web de página hecha en Hml - Css- Java Script. Algunas de estás con funciones de login y control de usuarios, formularios de productos.
+      <p className='text-center py-8 ui-monospace'>
+      Proyectos realizados en ReactJs + Vite +TailWind Css - SPA - enfocados en eccomerce de compra de productos y venta.  También desarrollo Web de página hecha en Hml - Css- Java Script. Algunas de estás con funciones de login y control de usuarios, formularios de productos.
       </p>  
       <div className='grid sm:grid-cols-2 gap-12'>
       <a href='https://leonardohuelvas.github.io/'><ProjectItem img={cryptoImg} title='Restaurant Web' /></a>
