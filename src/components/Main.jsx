@@ -31,10 +31,10 @@ const Main = () => {
                 />
            </h2>
            <div className='flex justify-between pt-6 max-w-[200] w-3/12'>
-            <FaTwitter  className='cursor-pointer' size={20}/>
-            <FaFacebookF className='cursor-pointer' size={20}/>
-            <FaInstagram className='cursor-pointer' size={20}/>
-            <FaLinkedinIn className='cursor-pointer' size={20}/>
+            <a href='https://twitter.com/@lejhubo'><FaTwitter  className='cursor-pointer' size={20}/></a>
+            <a href='https://www.facebook.com/lejhubo'><FaFacebookF className='cursor-pointer' size={20}/></a>
+            <a href='https://www.instagram.com/lejhubo'></a><FaInstagram className='cursor-pointer' size={20}/><a/>
+            <a href='https://www.linkedin.com/in/leonardo-javier-huelvas/'><FaLinkedinIn className='cursor-pointer' size={20}/></a>
 
            </div>
 

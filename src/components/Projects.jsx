@@ -15,13 +15,13 @@ const Projects = () => {
           Projects
         </h1>
       <p className='text-center py-8'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quidem incidunt, fugiat commodi ea hic saepe odit quisquam deleniti officia sapiente aliquam perferendis autem optio dicta quibusdam? Quod, tempore delectus.  
+      Proyectos realizados en ReactJs + Vite - SPA - enfocados en eccomerce de compra de productos y venta.  También desarrollo Web de página hecha en Hml - Css- Java Script. Algunas de estás con funciones de login y control de usuarios, formularios de productos.
       </p>  
       <div className='grid sm:grid-cols-2 gap-12'>
-      <ProjectItem img={cryptoImg} title='Crypto App' />
-      <ProjectItem img={propertyImg} title='Property App' />
-      <ProjectItem img={netflixImg} title='Netflix App' />
-      <ProjectItem img={twichImg} title='Twich App' />
+      <a href='https://leonardohuelvas.github.io/'><ProjectItem img={cryptoImg} title='Restaurant Web' /></a>
+      <a href='https://shop-shoes-comerce.netlify.app/'><ProjectItem img={propertyImg} title='Eccomerce Shoes' /></a>
+      <a><ProjectItem img={netflixImg} title='Netflix App' /></a>
+      <a href='https://eccomerce-tienda-venta.netlify.app/'><ProjectItem img={twichImg} title='Eccomerce' /></a>
       </div>
       
     </div>
