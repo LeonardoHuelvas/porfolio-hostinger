@@ -19,7 +19,7 @@ const Projects = () => {
       </p>  
       <div className='grid sm:grid-cols-2 gap-12'>
       <a href='https://leonardohuelvas.github.io/'><ProjectItem img={cryptoImg} title='Restaurant Web' /></a>
-      <a href='https://shop-shoes-comerce.netlify.app/'><ProjectItem img={propertyImg} title='Eccomerce Shoes' /></a>
+      <a href='https://shop-shoes-comerce.netlify.app/'><ProjectItem img={propertyImg} title='EccomerceShoes' /></a>
       <a><ProjectItem img={netflixImg} title='Netflix App' /></a>
       <a href='https://eccomerce-tienda-venta.netlify.app/'><ProjectItem img={twichImg} title='Eccomerce' /></a>
       </div>
