@@ -22,7 +22,9 @@ const Contact = () =>{
                         <input 
                         className="border-2 rounded-lg p-3 flex border-gray-300" 
                         type="text" 
-                        name="phone"/>
+                        name="phone"  pattern="[0-9]*"
+                        required
+                        title="Ingrese solo números"/>
                     </div>
                     </div>
                     <div className="flex flex-col py-2">
